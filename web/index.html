@@ -1,3 +1,7 @@
+<!--
+	Staging: https://zealous-sea-0cc038a03-10.westeurope.azurestaticapps.net/	
+-->
+
 <!DOCTYPE html>
 <html dir="ltr" lang="de-DE">
 <head>
@@ -90,10 +94,10 @@
 									<a href="#" class="menu-link" data-href="#content"><div>Willkommen</div></a>
 								</li>
 								<li class="menu-item">
-									<a href="#" class="menu-link" data-href="#section-video"><div>Lerne unsere Schule kennen</div></a>
+									<a href="#" class="menu-link" data-href="#section-video"><div>Unsere Schule</div></a>
 								</li>
 								<li class="menu-item">
-									<a href="#" class="menu-link" data-href="#section-faq"><div>Fragen die uns häufig gestellt werden</div></a>
+									<a href="#" class="menu-link" data-href="#section-faq"><div>Häufige Fragen</div></a>
 								</li>
 							</ul>
 						</nav>
@@ -123,7 +127,7 @@
 					</div>
 				</div>
 				
-				<div class="video-wrap no-placeholder">
+				<div class="video-wrap no-placeholder lazy-loaded">
 					<video poster="videos/montessori.jpg" preload="auto" loop autoplay muted playsinline>
 						<source src='videos/montessori.webm' type='video/webm' />
 						<source src='videos/montessori.mp4' type='video/mp4' />
@@ -144,7 +148,7 @@
 				
 				<!-- Welcome container
 				============================================= -->
-				<div id="section-welcome" class="container mr-0">
+				<div id="section-welcome" class="container mb-5">
 					<div class="row align-items-center">
 						<div class="col-lg-5 pr-5">
 							<div class="heading-block">
@@ -166,29 +170,27 @@
 
 				<!-- Zitat container
 				============================================= -->
-				<div id="section-zitat" class="section vertical-middle parallax min-vh-75 lazy-loaded mb-0" style="background-image: url('images/zitat/schule.jpg'); padding: 150px 0;" data-bottom-top="background-position:0px 0px;" data-top-bottom="background-position:0px -300px;">
+				<div id="section-zitat" class="parallax min-vh-75 mb-0 vertical-middle lazy-loaded" style="background-image: url('images/zitat/schule.jpg'); background-size: cover; background-position: center center;">
 
-					<div class="shape-divider" data-shape="wave-4" data-position="top" data-height="150" data-fill="#FFFFFF"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 140" preserveAspectRatio="none" class="op-ts op-1"><path class="shape-divider-fill" d="M0 51.76c36.21-2.25 77.57-3.58 126.42-3.58 320 0 320 57 640 57 271.15 0 312.58-40.91 513.58-53.4V0H0z" opacity="0.3"></path><path class="shape-divider-fill" d="M0 24.31c43.46-5.69 94.56-9.25 158.42-9.25 320 0 320 89.24 640 89.24 256.13 0 307.28-57.16 481.58-80V0H0z" opacity="0.5"></path><path class="shape-divider-fill" d="M0 0v3.4C28.2 1.6 59.4.59 94.42.59c320 0 320 84.3 640 84.3 285 0 316.17-66.85 545.58-81.49V0z"></path></svg></div>
+					<div class="shape-divider" data-shape="wave-4" data-position="top" data-height="150" data-fill="#FFFFFF"></div>
 					
-					<div class="container clearfix">
-						<div class="">
-							<div class="col-md-6">
-								<div class="testimonial op-08">
-									<div class="testi-image">
-										<img src="images/zitat/maria.jpg" alt="Maria Montessori">
-									</div>
-									<div class="testi-content">
-										<p>Was Kinder betrifft, betrifft die Menschheit</p>
-										<div class="testi-meta">
-											Maria Montessori
-										</div>
+					<div class="d-flex justify-content-center position-relative">
+						<div class="row align-items-center justify-content-center h-100">
+							<div class="testimonial op-08">
+								<div class="testi-image">
+									<img src="images/zitat/maria.jpg" alt="Maria Montessori">
+								</div>
+								<div class="testi-content">
+									<p>Was Kinder betrifft, betrifft die Menschheit</p>
+									<div class="testi-meta">
+										Maria Montessori
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					
-					<div class="shape-divider" data-shape="wave-4" data-position="bottom" data-height="150" data-fill="#FFFFFF"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 140" preserveAspectRatio="none" class="op-ts op-1"><path class="shape-divider-fill" d="M0 51.76c36.21-2.25 77.57-3.58 126.42-3.58 320 0 320 57 640 57 271.15 0 312.58-40.91 513.58-53.4V0H0z" opacity="0.3"></path><path class="shape-divider-fill" d="M0 24.31c43.46-5.69 94.56-9.25 158.42-9.25 320 0 320 89.24 640 89.24 256.13 0 307.28-57.16 481.58-80V0H0z" opacity="0.5"></path><path class="shape-divider-fill" d="M0 0v3.4C28.2 1.6 59.4.59 94.42.59c320 0 320 84.3 640 84.3 285 0 316.17-66.85 545.58-81.49V0z"></path></svg></div>
+					<div class="shape-divider" data-shape="wave-4" data-position="bottom" data-height="150" data-fill="#FFFFFF"></div>
 				</div>
 				<!-- #section-zitat end -->
 				
@@ -201,8 +203,50 @@
 						</div>
 					</div>
 				</div>
+				
+				<div id="portfolio" class="portfolio row grid-container no-gutters">
+					<article class="portfolio-item pf-uielements pf-icons">
+						<div class="grid-inner">
+							<div class="portfolio-image">
+								<a href="http://www.youtube.com/watch?v=oxZV2ZbegVM">
+									<img src="images/youtube/Imagefilm.jpg" alt="Montessori-Schule Aufkirchen">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
+										<a href="https://www.youtube.com/watch?v=oxZV2ZbegVM" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+										<a href="http://www.montessori-erding.de/schule/" class="overlay-trigger-icon bg-light text-dark animated fadeOutUpSmall" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" style="animation-duration: 350ms;"><i class="icon-line-ellipsis"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3>Montessori-Schule Aufkirchen</h3>
+								<span>Komme herein, und schau dich um!</span>
+							</div>
+						</div>
+					</article>
+				</div>
 
-				<div id="portfolio" class="portfolio row no-gutters portfolio-reveal grid-container my-0">
+
+				<div id="portfolio" class="portfolio row grid-container no-gutters mb-5">
+					<article class="portfolio-item col-6 col-md-4 col-lg-3 pf-uielements pf-icons">
+						<div class="grid-inner">
+							<div class="portfolio-image">
+								<a href="https://www.youtube.com/watch?v=CUm1yTRNk1k">
+									<img src="images/youtube/DieGStufe.jpg" alt="Die G-Stufe">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
+										<a href="https://www.youtube.com/watch?v=CUm1yTRNk1k" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3>Die G-Stufe</h3>
+							</div>
+						</div>
+					</article>
 					<article class="portfolio-item col-6 col-md-4 col-lg-3 pf-uielements pf-icons">
 						<div class="grid-inner">
 							<div class="portfolio-image">
@@ -218,6 +262,42 @@
 							</div>
 							<div class="portfolio-desc">
 								<h3>Die Mittelstufe</h3>
+							</div>
+						</div>
+					</article>
+					<article class="portfolio-item col-6 col-md-4 col-lg-3 pf-uielements pf-icons">
+						<div class="grid-inner">
+							<div class="portfolio-image">
+								<a href="https://www.youtube.com/watch?v=qCKiG57dcNU">
+									<img src="images/youtube/DieOberstufe.jpg" alt="Die Oberstufe">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
+										<a href="https://www.youtube.com/watch?v=qCKiG57dcNU" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3>Die Oberstufe</h3>
+							</div>
+						</div>
+					</article>
+					<article class="portfolio-item col-6 col-md-4 col-lg-3 pf-uielements pf-icons">
+						<div class="grid-inner">
+							<div class="portfolio-image">
+								<a href="https://www.youtube.com/watch?v=j5qWrIccbis">
+									<img src="images/youtube/DieAStufe.jpg" alt="Die A-Stufe">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
+										<a href="https://www.youtube.com/watch?v=j5qWrIccbis" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3>Die A-Stufe</h3>
 							</div>
 						</div>
 					</article>
@@ -254,6 +334,60 @@
 							</div>
 							<div class="portfolio-desc">
 								<h3>Kunstunterricht</h3>
+							</div>
+						</div>
+					</article>
+					<article class="portfolio-item col-6 col-md-4 col-lg-3 pf-uielements pf-icons">
+						<div class="grid-inner">
+							<div class="portfolio-image">
+								<a href="https://www.youtube.com/watch?v=QSbuZG5eV1U">
+									<img src="images/youtube/WerkenUndGestalten.jpg" alt="Werken und Gestalten">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
+										<a href="https://www.youtube.com/watch?v=QSbuZG5eV1U" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3>Werken und Gestalten</h3>
+							</div>
+						</div>
+					</article>
+					<article class="portfolio-item col-6 col-md-4 col-lg-3 pf-uielements pf-icons">
+						<div class="grid-inner">
+							<div class="portfolio-image">
+								<a href="https://www.youtube.com/watch?v=E_N-FyBJiHo">
+									<img src="images/youtube/EinGrussAusDerSchulkueche.jpg" alt="Keramik">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
+										<a href="https://www.youtube.com/watch?v=E_N-FyBJiHo" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3>Keramik</h3>
+							</div>
+						</div>
+					</article>
+					<article class="portfolio-item col-6 col-md-4 col-lg-3 pf-uielements pf-icons">
+						<div class="grid-inner">
+							<div class="portfolio-image">
+								<a href="https://www.youtube.com/watch?v=E_N-FyBJiHo">
+									<img src="images/youtube/EinGrussAusDerSchulkueche.jpg" alt="Ein Gruß aus der Schulküche">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
+										<a href="https://www.youtube.com/watch?v=E_N-FyBJiHo" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3>Ein Gruß aus der Schulküche</h3>
 							</div>
 						</div>
 					</article>
@@ -313,61 +447,27 @@
 							</div>
 						</div>
 					</article>
-					<article class="portfolio-item col-6 col-md-4 col-lg-3 pf-uielements pf-icons">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<a href="https://www.youtube.com/watch?v=QSbuZG5eV1U">
-									<img src="images/youtube/WerkenUndGestalten.jpg" alt="Werken und Gestalten">
-								</a>
-								<div class="bg-overlay">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
-										<a href="https://www.youtube.com/watch?v=QSbuZG5eV1U" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
-								</div>
-							</div>
-							<div class="portfolio-desc">
-								<h3>Werken und Gestalten</h3>
-							</div>
-						</div>
-					</article>
-					<article class="portfolio-item col-6 col-md-4 col-lg-3 pf-uielements pf-icons">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<a href="https://www.youtube.com/watch?v=iEWaiJoCPJE">
-									<img src="images/youtube/EinGrussAusDerSchulkueche.jpg" alt="Ein Gruß aus der Schulküche">
-								</a>
-								<div class="bg-overlay">
-									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
-										<a href="https://www.youtube.com/watch?v=iEWaiJoCPJE" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-									</div>
-									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
-								</div>
-							</div>
-							<div class="portfolio-desc">
-								<h3>Ein Gruß aus der Schulküche</h3>
-							</div>
-						</div>
-					</article>
 				</div>
 				<!-- #section-video end -->
 
 				<!-- School Image container
 				============================================= -->
-				<div class="border-top-0 m-0">
-					<div class="d-flex justify-content-center position-relative">
-						<div class="parallax min-vh-75" style="background-image: url('images/schule.jpg'); background-size: cover; background-position: center center;" data-bottom-top="width: 40vw" data-center-top="width: 100vw;">
-							<div class="row align-items-center justify-content-center h-100">
-								<div class="col-auto text-center">
-									<a href="#" class="display-4 font-weight-bolder text-white d-inline-block mx-4 h-op-08 op-ts"><u>#monteaufkirchen</u></a>
-									<a href="#" class="display-4 font-weight-bolder text-white d-inline-block mx-4 h-op-08 op-ts"><u>#montessori</u></a>
-								</div>
-							</div>
-						</div>
-						<div class="shape-divider" data-shape="wave-4" data-position="bottom" data-fill="#F9F9F9"></div>
-					</div>
-				</div><!-- #school image end -->
+				<div id="section-school" class="parallax min-vh-75 mb-0 vertical-middle lazy-loaded" style="background-image: url('images/schule.jpg'); background-size: cover; background-position: center center;">
 
+					<div class="shape-divider" data-shape="wave-4" data-position="top" data-height="150" data-fill="#FFFFFF"></div>
+
+					<div class="row align-items-center justify-content-center h-100">
+						<div class="col-auto text-center">
+							<a href="#" class="display-4 font-weight-bolder text-white d-inline-block mx-4 h-op-08 op-ts"><u>#monteaufkirchen</u></a>
+							<a href="#" class="display-4 font-weight-bolder text-white d-inline-block mx-4 h-op-08 op-ts"><u>#montessori</u></a>
+						</div>
+					</div>
+
+					<div class="shape-divider" data-shape="wave-4" data-position="bottom" data-fill="#F9F9F9"></div>
+
+				</div>
+				<!-- #section-school end -->
+				
 				<!-- FAQ container
 				============================================= -->
 				<div id="section-faq" class="section border-top-0 my-0">
