@@ -1,0 +1,49 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+	#header-wrap {
+		position: absolute;
+    	z-index: 100;
+	}
+}
+
+#logo {
+	line-height: 100px;
+}
+
+.full-header #logo,
+.full-header .primary-menu .menu-container {
+	border-right: none;
+}
+
+.custom-logo-image {
+	margin-right: 10px;
+	width: 70px;
+}
+
+.custom-logo-writing {
+	margin-right: 10px;
+	width: 200px;
+}
+
+.custom-logo-location {
+	display: none;
+}
+
+@media (min-width: 450px) {
+	.custom-logo-location {
+		color: #666;
+		display: inline;
+		font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+		font-size: 0.4em;
+		position: relative;
+		text-transform: uppercase;
+		top: 4px;
+	}
+	
+}
